@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Task7
+{
+  public static void main(String[]args)
+  {
+    Scanner sc=new Scanner(System.in);
+int odd;
+int even;
+    int numArray[]=new int[10];
+      for(int i=0;i<numArray.length;i++)
+    {
+      System.out.println("please enter a number"); 
+      numArray[i]=sc.nextInt();
+    }
+     
+      for(int i=0;i<numArray.length;i++)
+      {
+      if(numArray[i]%2==0);
+      {
+        even=numArray[i]; 
+        System.out.println(even);
+      }
+ 
+      {
+         odd=numArray[i];
+          System.out.println(even);
+      }
+}
+      
+    }
+  }
